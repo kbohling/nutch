@@ -1,0 +1,13 @@
+-noeclipse
+-nouses true
+Export-Package: \
+                org.apache.nutch.net.urlnormalizer.regex
+Import-Package: \
+                javax.xml.parsers, \
+                org.apache.commons.logging, \
+                org.apache.hadoop.conf, \
+                org.apache.nutch.net, \
+                org.apache.nutch.util, \
+                org.apache.oro.text.regex, \
+                org.w3c.dom
+Bundle-Name: Nutch URL Normalizer Regex Plugin

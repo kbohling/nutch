@@ -1,0 +1,8 @@
+-noeclipse
+-nouses true
+Export-Package: \
+                org.apache.nutch.indexer.tld, \
+                org.apache.nutch.searcher.tld, \
+Import-Package: \
+                org.apache.hadoop.conf
+Bundle-Name: Nutch TLD Plugin

@@ -1,0 +1,10 @@
+-noeclipse
+-nouses true
+Export-Package: \
+                org.apache.nutch.parse.msexcel
+Import-Package: \
+                org.apache.nutch.parse, \
+                org.apache.nutch.parse.ms, \
+                org.apache.nutch.protocol, \
+                org.apache.poi.hssf.usermodel
+Bundle-Name: Nutch Parse MS-Excel Plugin

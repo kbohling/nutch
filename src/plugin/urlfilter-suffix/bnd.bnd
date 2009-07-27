@@ -1,0 +1,11 @@
+-noeclipse
+-nouses true
+Export-Package: \
+                org.apache.nutch.urlfilter.suffix
+Import-Package: \
+                org.apache.commons.logging, \
+                org.apache.nutch.net, \
+                org.apache.nutch.plugin, \
+                org.apache.nutch.util, \
+                org.apache.hadoop.conf
+Bundle-Name: Nutch URL Filter Suffix Plugin

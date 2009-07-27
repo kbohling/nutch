@@ -17,7 +17,7 @@
 -->
 <project name="scoring-opic" default="jar-core">
 
-  <import file="../build-plugin.xml"/>
+  <import file="../build-bundle.xml"/>
 
   <!-- Deploy Unit test dependencies -->
   <target name="deps-test">

@@ -1,0 +1,15 @@
+-noeclipse
+-nouses true
+Export-Package: \
+                org.apache.nutch.protocol.file
+Import-Package: \
+                org.apache.commons.logging, \
+                org.apache.hadoop.io, \
+                org.apache.nutch.crawl, \
+                org.apache.nutch.metadata, \
+                org.apache.nutch.net.protocols, \
+                org.apache.nutch.protocol, \
+                org.apache.nutch.util, \
+                org.apache.tika.mime, \
+                org.apache.hadoop.conf
+Bundle-Name: Nutch Protocol File Plugin

@@ -1,0 +1,14 @@
+-noeclipse
+-nouses true
+Export-Package: \
+                org.apache.nutch.parse.js
+Import-Package: \
+                org.apache.commons.logging, \
+                org.apache.nutch.metadata, \
+                org.apache.nutch.parse, \
+                org.apache.nutch.protocol, \
+                org.apache.nutch.util, \
+                org.apache.oro.text.regex, \
+                org.w3c.dom, \
+                org.apache.hadoop.conf
+Bundle-Name: Nutch Parse JavaScript Plugin

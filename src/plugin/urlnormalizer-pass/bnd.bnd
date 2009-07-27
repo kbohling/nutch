@@ -1,0 +1,8 @@
+-noeclipse
+-nouses true
+Export-Package: \
+                org.apache.nutch.net.urlnormalizer.pass
+Import-Package: \
+                org.apache.nutch.net, \
+                org.apache.hadoop.conf
+Bundle-Name: Nutch URL Normalizer Pass Plugin

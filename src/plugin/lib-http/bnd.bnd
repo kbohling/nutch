@@ -1,0 +1,14 @@
+-noeclipse
+-nouses true
+Export-Package: \
+                org.apache.nutch.protocol.http.api
+Import-Package: \
+                org.apache.commons.logging, \
+                org.apache.hadoop.io, \
+                org.apache.nutch.crawl, \
+                org.apache.nutch.metadata, \
+                org.apache.nutch.net.protocols, \
+                org.apache.nutch.protocol, \
+                org.apache.nutch.util, \
+                org.apache.hadoop.conf
+Bundle-Name: Nutch lib http Plugin

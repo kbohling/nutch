@@ -1,0 +1,12 @@
+-noeclipse
+-nouses true
+Export-Package: \
+                org.apache.nutch.indexer.anchor
+Import-Package: \
+                org.apache.commons.logging, \
+                org.apache.hadoop.io, \
+                org.apache.nutch.crawl, \
+                org.apache.nutch.indexer, \
+                org.apache.nutch.indexer.lucene, \
+                org.apache.nutch.parse, \
+                org.apache.hadoop.conf

@@ -1,0 +1,14 @@
+-noeclipse
+-nouses true
+Export-Package: \
+                org.apache.nutch.searcher.custom
+Import-Package: \
+                org.apache.commons.logging, \
+                org.apache.hadoop.fs, \
+                org.apache.hadoop.util, \
+                org.apache.lucene.index, \
+                org.apache.lucene.search, \
+                org.apache.nutch.indexer.field, \
+                org.apache.nutch.searcher, \
+                org.apache.hadoop.conf
+Bundle-Name: Nutch Query Custom Plugin

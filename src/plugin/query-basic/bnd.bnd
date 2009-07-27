@@ -1,0 +1,11 @@
+-noeclipse
+-nouses true
+Export-Package: \
+                org.apache.nutch.searcher.basic
+Import-Package: \
+                org.apache.lucene.index, \
+                org.apache.lucene.search, \
+                org.apache.nutch.analysis, \
+                org.apache.nutch.searcher, \
+                org.apache.hadoop.conf
+Bundle-Name: Nutch Query Basic Plugin

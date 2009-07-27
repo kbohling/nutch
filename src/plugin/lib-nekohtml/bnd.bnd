@@ -1,0 +1,13 @@
+-noeclipse
+-nouses true
+Export-Package: \
+                org.cyberneko.html.*
+Import-Package: \
+                org.apache.xerces.impl, \
+                org.apache.xerces.parsers, \
+                org.apache.xerces.util, \
+                org.apache.xerces.xni, \
+                org.apache.xerces.xni.parser, \
+                org.w3c.dom, \
+                org.xml.sax
+Bundle-Name: Nutch lib nekohtml Plugin

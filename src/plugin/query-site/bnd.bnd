@@ -1,0 +1,8 @@
+-noeclipse
+-nouses true
+Export-Package: \
+                org.apache.nutch.searcher.site
+Import-Package: \
+                org.apache.nutch.searcher, \
+                org.apache.hadoop.conf
+Bundle-Name: Nutch Query Site Plugin

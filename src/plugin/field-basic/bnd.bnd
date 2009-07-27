@@ -1,0 +1,10 @@
+-noeclipse
+-nouses true
+Export-Package: \
+                org.apache.nutch.indexer.field.basic
+Import-Package: org.apache.commons.logging, \
+                org.apache.lucene.document, \
+                org.apache.nutch.indexer, \
+                org.apache.nutch.indexer.field, \
+                org.apache.hadoop.conf
+Bundle-Name: Nutch Field Basic Plugin

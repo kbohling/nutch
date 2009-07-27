@@ -1,0 +1,18 @@
+-noeclipse
+-nouses true
+Export-Package: \
+                org.apache.nutch.searcher.response.xml
+Import-Package: \
+                javax.servlet, \
+                javax.servlet.http, \
+                javax.xml.parsers, \
+                javax.xml.transform, \
+                javax.xml.transform.dom, \
+                javax.xml.transform.stream, \
+                org.apache.commons.lang, \
+                org.apache.nutch.html, \
+                org.apache.nutch.searcher, \
+                org.apache.nutch.searcher.response, \
+                org.w3c.dom, \
+                org.apache.hadoop.conf
+Bundle-Name: Nutch Response XML Plugin

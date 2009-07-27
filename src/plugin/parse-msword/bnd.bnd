@@ -1,0 +1,14 @@
+-noeclipse
+-nouses true
+Export-Package: \
+                org.apache.nutch.parse.msword, \
+                org.apache.nutch.parse.msword.chp
+Import-Package: \
+                org.apache.nutch.parse, \
+                org.apache.nutch.parse.ms, \
+                org.apache.nutch.protocol, \
+                org.apache.poi.hwpf.model, \
+                org.apache.poi.hwpf.sprm, \
+                org.apache.poi.poifs.filesystem, \
+                org.apache.poi.util
+Bundle-Name: Nutch Parse MS-Word Plugin

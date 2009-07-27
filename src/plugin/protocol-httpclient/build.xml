@@ -17,7 +17,7 @@
 -->
 <project name="protocol-httpclient" default="jar-core">
 
-  <import file="../build-plugin.xml"/>
+  <import file="../build-bundle.xml"/>
 
   <target name="deps-jar">
     <ant target="jar" inheritall="false" dir="../lib-http"/>

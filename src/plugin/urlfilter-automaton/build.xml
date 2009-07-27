@@ -17,12 +17,19 @@
 -->
 <project name="urlfilter-automaton" default="jar-core">
 
-  <import file="../build-plugin.xml"/>
+  <import file="../build-bundle.xml"/>
 
   <!-- Build compilation dependencies -->
   <target name="deps-jar">
     <ant target="jar" inheritall="false" dir="../lib-regex-filter"/>
     <ant target="compile-test" inheritall="false" dir="../lib-regex-filter"/>
+
+    <bnd 
+         classpath="${bnd.classpath.str}"
+         files="${basedir}/automaton.bnd"
+         output="${deploy.dir}/automaton.jar"
+         />
+
   </target>
 
   <!-- Add compilation dependencies to classpath -->

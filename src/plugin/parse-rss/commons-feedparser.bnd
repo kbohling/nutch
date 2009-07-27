@@ -1,0 +1,21 @@
+-noeclipse
+-nouses true
+Export-Package: \
+                org.apache.commons.feedparser.*
+Import-Package: \
+                javax.xml.parsers, \
+                junit.framework;resolution:=optional, \
+                org.apache.commons.httpclient, \
+                org.apache.commons.httpclient.methods, \
+                org.apache.log4j, \
+                org.apache.xerces.impl, \
+                org.apache.xmlrpc;resolution:=optional, \
+                org.jaxen, \
+                org.jaxen.jdom, \
+                org.jdom, \
+                org.jdom.input, \
+                org.jdom.output, \
+                org.xml.sax, \
+                org.xml.sax.helpers, \
+                sun.net.www.protocol.http
+Bundle-Name: Nutch Wrapper commons-feedparser Plugin

@@ -1,0 +1,13 @@
+-noeclipse
+-nouses true
+Export-Package: \
+                org.apache.nutch.parse.ext
+Import-Package: \
+                org.apache.commons.logging, \
+                org.apache.hadoop.conf, \
+                org.apache.nutch.metadata, \
+                org.apache.nutch.parse, \
+                org.apache.nutch.plugin, \
+                org.apache.nutch.protocol, \
+                org.apache.nutch.util
+Bundle-Name: Nutch Parse Ext Plugin

@@ -1,0 +1,11 @@
+-noeclipse
+-nouses true
+Export-Package: \
+                org.apache.nutch.summary.basic
+Import-Package: \
+                org.apache.lucene.analysis, \
+                org.apache.nutch.analysis, \
+                org.apache.nutch.searcher, \
+                org.apache.nutch.util, \
+                org.apache.hadoop.conf
+Bundle-Name: Nutch Summary Basic Plugin

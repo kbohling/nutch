@@ -1,0 +1,15 @@
+-noeclipse
+-nouses true
+Export-Package: \
+                org.apache.poi.hssf.usermodel;-split-package:=merge-first, \
+                org.apache.poi.*
+Import-Package: \
+                javax.imageio, \
+                javax.imageio.metadata, \
+                javax.imageio.stream, \
+                javax.xml.parsers, \
+                javax.xml.transform, \
+                javax.xml.transform.stream, \
+                org.apache.commons.logging, \
+                org.w3c.dom
+Bundle-Name: Nutch Lib Jakarta POI Plugin

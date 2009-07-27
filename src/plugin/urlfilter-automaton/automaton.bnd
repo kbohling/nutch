@@ -1,0 +1,6 @@
+-noeclipse
+-nouses true
+Export-Package: \
+                dk.brics.automaton
+Import-Package: 
+Bundle-Name: Nutch Wrapper Automaton Plugin

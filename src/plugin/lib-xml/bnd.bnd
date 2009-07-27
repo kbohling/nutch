@@ -1,0 +1,20 @@
+-noeclipse
+-nouses true
+Export-Package: \
+                org.apache.xerces.*, \
+                org.w3c.dom.html, \
+                org.apache.xml.serialize
+Import-Package: \
+                sun.io, \
+                javax.xml.parsers, \
+                org.apache.xml.resolver, \
+                org.apache.xml.resolver.readers, \
+                org.w3c.dom, \
+                org.w3c.dom.events, \
+                org.w3c.dom.ls, \
+                org.w3c.dom.ranges, \
+                org.w3c.dom.traversal, \
+                org.xml.sax, \
+                org.xml.sax.ext, \
+                org.xml.sax.helpers
+Bundle-Name: Nutch lib XML Plugin

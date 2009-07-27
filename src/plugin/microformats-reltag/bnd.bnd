@@ -1,0 +1,18 @@
+-noeclipse
+-nouses true
+Export-Package: \
+                org.apache.nutch.microformats.reltag
+Import-Package: \
+                org.apache.commons.logging, \
+                org.apache.hadoop.conf, \
+                org.apache.hadoop.io, \
+                org.apache.nutch.crawl, \
+                org.apache.nutch.indexer, \
+                org.apache.nutch.indexer.lucene, \
+                org.apache.nutch.metadata, \
+                org.apache.nutch.parse, \
+                org.apache.nutch.protocol, \
+                org.apache.nutch.searcher, \
+                org.apache.nutch.util, \
+                org.w3c.dom
+Bundle-Name: Nutch Microformats Reltag Plugin

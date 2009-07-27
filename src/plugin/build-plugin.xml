@@ -54,6 +54,7 @@
     <pathelement location="${nutch.root}/build/classes"/>
     <fileset dir="${nutch.root}/lib">
       <include name="*.jar" />
+      <include name="bundle/*.jar" />
     </fileset>
     <path refid="plugin.deps"/>
   </path>
@@ -156,6 +157,7 @@
 	
   <target name="copy-generated-lib" if="lib-available">
     <copy file="${build.dir}/${name}.jar" todir="${deploy.dir}" failonerror="false"/>
+    <copy file="${build.dir}/${name}.jar" todir="${nutch.root}/build/osgi/lib" failonerror="false"/>
   </target>
 
   <!-- ================================================================== -->

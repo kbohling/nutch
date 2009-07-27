@@ -1,0 +1,18 @@
+-noeclipse
+-nouses true
+Export-Package: \
+                org.apache.nutch.indexer.more
+Import-Package: \
+                org.apache.commons.lang.time, \
+                org.apache.commons.logging, \
+                org.apache.hadoop.io, \
+                org.apache.nutch.crawl, \
+                org.apache.nutch.indexer, \
+                org.apache.nutch.indexer.lucene, \
+                org.apache.nutch.net.protocols, \
+                org.apache.nutch.parse, \
+                org.apache.nutch.util, \
+                org.apache.oro.text.regex, \
+                org.apache.tika.mime, \
+                org.apache.hadoop.conf
+Bundle-Name: Nutch Index More Plugin

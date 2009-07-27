@@ -1,0 +1,21 @@
+-noeclipse
+-nouses true
+Export-Package: \
+                org.apache.nutch.collection, \
+                org.apache.nutch.indexer.subcollection, \
+                org.apache.nutch.searcher.subcollection
+Import-Package: \
+                org.apache.commons.logging, \
+                org.apache.hadoop.io, \
+                org.apache.nutch.crawl, \
+                org.apache.nutch.indexer, \
+                org.apache.nutch.indexer.lucene, \
+                org.apache.nutch.net, \
+                org.apache.nutch.parse, \
+                org.apache.nutch.searcher, \
+                org.apache.nutch.util, \
+                org.apache.xerces.dom, \
+                org.apache.xerces.util, \
+                org.w3c.dom, \
+                org.apache.hadoop.conf
+Bundle-Name: Nutch Subcollection Plugin

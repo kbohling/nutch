@@ -17,7 +17,7 @@
 -->
 <project name="parse-msexcel" default="jar-core">
 
-  <import file="../build-plugin.xml" />
+  <import file="../build-bundle.xml" />
 
   <!-- Build compilation dependencies -->
   <target name="deps-jar">

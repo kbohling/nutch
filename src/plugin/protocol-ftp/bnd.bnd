@@ -1,0 +1,17 @@
+-noeclipse
+-nouses true
+Export-Package: \
+                org.apache.nutch.protocol.ftp
+Import-Package: \
+                org.apache.commons.logging, \
+                org.apache.commons.net, \
+                org.apache.commons.net.ftp, \
+                org.apache.commons.net.ftp.parser, \
+                org.apache.hadoop.io, \
+                org.apache.nutch.crawl, \
+                org.apache.nutch.metadata, \
+                org.apache.nutch.net.protocols, \
+                org.apache.nutch.protocol, \
+                org.apache.nutch.util, \
+                org.apache.hadoop.conf
+Bundle-Name: Nutch Protocol FTP Plugin

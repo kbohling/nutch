@@ -1,0 +1,40 @@
+Not sure if this is both Hadoop/HBase together, or just Hadoop alone would suffer from these problems.
+The following link is very recent, and seems like making Hadoop become OSGi would be a "challenge".
+
+http://www.mail-archive.com/core-user@hadoop.apache.org/msg10753.html
+
+This guy makes it seem like at one point it was kinda happening:
+http://thesubclassexplosion.wordpress.com/2008/08/27/hadoop-and-hbase-for-osgi/
+
+So I'm not sure what to think here.
+
+MOre talk about tracking down these kinds of problems.
+http://www.nabble.com/Hadoop-on-Solaris-10-and-in-OSGi-bundles-td20361820.html
+
+I'm fairly sure that what this means is that I want everything inside of
+Hadoop to be in the SystemClassloader, and run an embedded version of Felix.
+
+I think the first question to answer is if the core is an OSGi plugin, or if
+it is loaded from the System Classloader.  I think it's loaded via the System
+Classloader.
+
+http://felix.apache.org/site/launching-and-embedding-apache-felix.html#LaunchingandEmbeddingApacheFelix-embedding
+
+This tutorial series of tutorials looks very useful:
+http://felix.apache.org/site/apache-felix-osgi-tutorial.html
+
+Okay, the general thought process is:
+
+Minimal code changes to get an OSGi environment.
+Use Felix and Equinox to ensure at least semi-portable behavior.
+Because Hadoop/Hbase isn't OSGi friendly, use an embedded OSGi environment.
+Make the least invasive changes possible:
+ * Make everything in lib/*.jar become a part of the System ClassLoader.
+ * Make Nutch Core become one big bundle (hopefully to be picked part later).
+ * Make each plugin a Service, use that service to register extensions.
+   If this is by having the core plugin register a listener for new services.
+If the "service" is "register contributions", then the lister can hand the
+"register contributions" services an internal data structure that mimics the
+old plugin package code pretty easily.
+
+

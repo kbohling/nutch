@@ -1,0 +1,10 @@
+-noeclipse
+-nouses true
+Export-Package: \
+                !org.apache.lucene.analysis, \
+                !org.apache.lucene.analysis.standard, \
+                org.apache.lucene.analysis.*
+Import-Packages: \
+                org.apache.lucene.analysis, \
+                org.apache.lucene.analysis.standard
+Bundle-Name: Nutch lib lucene-analyzers Plugin

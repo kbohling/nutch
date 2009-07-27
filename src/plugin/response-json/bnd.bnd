@@ -1,0 +1,5 @@
+-noeclipse
+-nouses true
+Export-Package: \
+                org.apache.nutch.searcher.response.json
+Bundle-Name: Nutch Response JSON Plugin

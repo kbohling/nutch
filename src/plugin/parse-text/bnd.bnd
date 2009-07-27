@@ -1,0 +1,11 @@
+-noeclipse
+-nouses true
+Export-Package: \
+                org.apache.nutch.parse.text
+Import-Package: \
+                org.apache.nutch.metadata, \
+                org.apache.nutch.parse, \
+                org.apache.nutch.protocol, \
+                org.apache.nutch.util, \
+                org.apache.hadoop.conf
+Bundle-Name: Nutch Parse Text Plugin

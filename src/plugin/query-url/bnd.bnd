@@ -1,0 +1,8 @@
+-noeclipse
+-nouses true
+Export-Package: \
+                org.apache.nutch.searcher.url
+Import-Package: \
+                org.apache.nutch.searcher, \
+                org.apache.hadoop.conf
+Bundle-Name: Nutch Query URL Plugin

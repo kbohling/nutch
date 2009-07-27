@@ -17,7 +17,7 @@
 -->
 <project name="lib-lucene-analyzers" default="jar">
 
-  <import file="../build-plugin.xml"/>
+  <import file="../build-bundle.xml"/>
 
   <!--
    ! Override the compile and jar targets,
@@ -30,5 +30,6 @@
       <fileset dir="./lib" includes="**/*.jar"/>
     </copy>
   </target>
+
 
 </project>

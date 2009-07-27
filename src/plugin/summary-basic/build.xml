@@ -17,6 +17,6 @@
 -->
 <project name="summary-basic" default="jar-core">
 
-  <import file="../build-plugin.xml"/>
+  <import file="../build-bundle.xml"/>
 
 </project>
