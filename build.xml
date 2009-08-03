@@ -169,6 +169,7 @@
 
     <copy todir="${build.dir}/osgi/lib/.">
       <fileset dir="lib" includes="*.jar"/>
+      <fileset dir="lib/osgi" includes="*.jar"/>
     </copy>
 
     <copy todir="${build.dir}/osgi/bundle/.">

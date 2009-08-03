@@ -21,7 +21,6 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import org.apache.commons.lang.StringUtils;
 import org.apache.felix.framework.Felix;
 import org.apache.felix.framework.util.FelixConstants;
 import org.apache.hadoop.conf.Configuration;
@@ -47,6 +46,7 @@ public class HostApplication {
 
     final String prefix = "file:build/osgi/bundle";
 
+    // TODO: Must be dumped into a config file.
     String bundleList[] = new String[] {
 //        "analysis-de.jar", -- Ignoring for now.
 //        "analysis-fr.jar", -- Ignoring for now.
@@ -128,6 +128,7 @@ public class HostApplication {
         "urlnormalizer-regex.jar",
     };
     
+    // TODO: Needs to be dumped into a config file.
     String packageList[] = new String[] {
         "com.ibm.icu.text",
         "net.sf.json",
@@ -198,7 +199,19 @@ public class HostApplication {
       autoStart = autoStart + prefix + "/" + it;
     }
 
-    String packageListStr = StringUtils.join(packageList, ';');
+    String packageListStr = "";
+    
+    first = true;
+    for (String it : packageList) {
+      if (false == first) {
+        packageListStr = packageListStr + ", ";
+      } else {
+        first = false;
+      }
+      
+      packageListStr = packageListStr + it; 
+    }
+    
     configMap.put(CONFIGURATION_KEY, conf);
     configMap.put("felix.auto.start.1", autoStart);
     

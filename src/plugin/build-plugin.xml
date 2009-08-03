@@ -150,9 +150,6 @@
     <available property="lib-available"
                  file="${build.dir}/${name}.jar"/>
     <antcall target="copy-generated-lib"/>
-    <copy todir="${deploy.dir}" flatten="true">
-      <fileset refid="lib.jars"/>
-    </copy>
   </target>
 	
   <target name="copy-generated-lib" if="lib-available">
